@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tester/dev/hip-bench/kernels/matmul.hip
+hip/hip_runtime.h
+-
+
+/home/tester/dev/hip-bench/kernels/vector_add.hip
+hip/hip_runtime.h
+-
+

@@ -1,0 +1,1 @@
+/opt/rocm-6.4.1/bin/hipcc  --offload-arch=gfx1100 --hip-link --rtlib=compiler-rt -unwindlib=libgcc CMakeFiles/hip_runtime_bench.dir/src/main.cpp.o CMakeFiles/hip_runtime_bench.dir/kernels/vector_add.hip.o CMakeFiles/hip_runtime_bench.dir/kernels/matmul.hip.o -o hip_runtime_bench  /opt/rocm-6.4.1/lib/libamdhip64.so.6.4.60401 -lgcc -lgcc 
